@@ -1,7 +1,11 @@
+body {
+  font-family: "Dosis", sans-serif;
+}
 nav {
   display: flex;
   justify-content: space-between;
   background-color: #777;
+  font-size: 30px;
 }
 nav div {
   width: 160px;
@@ -9,13 +13,17 @@ nav div {
   background-color: #777;
   color: #fff;
   text-align: center;
+  margin-top: 40px;
 }
 main {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); */
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 300px 300px;
+  grid-template-rows: 450px 450px;
   color: #fff;
+  font-size: 45px;
+}
+main div {
+  padding: 150px 100px;
 }
 #one,
 #four {
@@ -29,7 +37,14 @@ main {
 }
 section {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   grid-template-rows: 300px 300px 300px 300px;
   color: black;
+}
+article {
+  font-size: 30px;
+  font-weight: 800;
+  padding: 40px;
+  margin: auto;
 }
