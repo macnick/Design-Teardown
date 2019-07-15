@@ -39,12 +39,15 @@ section {
   display: grid;
   /* grid-template-columns: 1fr 1fr 1fr; */
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-rows: repeat(4, auto);
   color: black;
 }
 article {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 800;
   padding: 40px;
   margin: auto;
+}
+p {
+  font-weight: 300;
 }
