@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #777;
+}
+nav div {
+  width: 160px;
+  height: 120px;
+  background-color: #777;
+  color: #fff;
+  text-align: center;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  /* background-color: #666; */
+  color: #fff;
+}
+#one,
+#four {
+  background-color: #646464;
+}
+#two {
+  background-color: #696969;
+}
+#three {
+  background-color: #626262;
+}
