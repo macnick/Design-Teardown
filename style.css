@@ -35,9 +35,8 @@ main div {
 #three {
   background-color: #626262;
 }
-section {
+.section {
   display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr; */
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   grid-template-rows: repeat(4, auto);
   color: black;
