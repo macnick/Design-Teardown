@@ -51,3 +51,21 @@ article {
 p {
   font-weight: 300;
 }
+footer {
+  height: 400px;
+  background-color: #777;
+  display: block;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  padding-top: 70px;
+  max-width: 90%;
+  margin: auto;
+}
+li {
+  float: left;
+  margin: 15px 25px;
+  font-size: 25px;
+  color: white;
+}
