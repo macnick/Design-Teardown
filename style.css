@@ -27,3 +27,9 @@ main {
 #three {
   background-color: #626262;
 }
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px 300px;
+  color: black;
+}
