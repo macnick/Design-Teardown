@@ -1,0 +1,20 @@
+.footer__topics {
+  display: block;
+  /* background-color: beige; */
+  text-align: center;
+  padding-bottom: 50px;
+}
+ul {
+  display: block;
+  max-width: 100%;
+  list-style-image: url(img/bullet.svg);
+}
+.footer__topics__item {
+  display: inline-block;
+  padding-right: 20px;
+}
+.footer__topics__list:before {
+  content: " ";
+  display: table;
+  clear: both;
+}

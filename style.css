@@ -69,13 +69,14 @@ footer {
 }
 ul {
   display: block;
-  list-style-type: disc;
+  list-style: none;
+  list-style-image: url(img/bullet.svg);
   padding-top: 70px;
   max-width: 90%;
   margin: auto;
 }
 li {
-  float: left;
+  display: inline-block;
   margin: 15px 25px;
   font-size: 25px;
   color: white;
