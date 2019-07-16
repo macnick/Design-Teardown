@@ -5,16 +5,13 @@
   padding-bottom: 50px;
 }
 ul {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   max-width: 100%;
-  list-style-image: url(img/bullet.svg);
+  padding: 0 100px;
+  justify-content: center;
+  /* list-style-image: url(img/bullet.svg); */
 }
-.footer__topics__item {
-  display: inline-block;
+li {
   padding-right: 20px;
-}
-.footer__topics__list:before {
-  content: " ";
-  display: table;
-  clear: both;
 }

@@ -68,15 +68,16 @@ footer {
   text-align: center;
 }
 ul {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   list-style-image: url(img/bullet.svg);
   padding-top: 70px;
   max-width: 90%;
   margin: auto;
+  justify-content: center;
 }
 li {
-  display: inline-block;
   margin: 15px 25px;
   font-size: 25px;
   color: white;
