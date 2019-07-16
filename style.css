@@ -27,6 +27,7 @@ main div {
 }
 #one,
 #four {
+
   background-color: #646464;
 }
 #two {
@@ -67,4 +68,11 @@ li {
   margin: 15px 25px;
   font-size: 25px;
   color: white;
+}
+
+main img {
+  width: 64px;
+  height: 64px;
+  border: 4px solid white;
+  border-radius: 6px;
 }
