@@ -65,6 +65,7 @@ footer {
   height: 400px;
   background-color: #777;
   display: block;
+  text-align: center;
 }
 ul {
   display: block;
@@ -105,14 +106,15 @@ li {
 }
 .lower {
   display: grid;
-  width: 100%;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
+  font-family: Elena;
 }
 .lower img {
   width: 64px;
   height: 64px;
   border: 4px solid red;
   border-radius: 8px;
+  margin: 0 30px 150px 0;
   float: left;
 }
