@@ -121,3 +121,8 @@ li {
   margin: 0 30px 150px 0;
   float: left;
 }
+.lower2 li {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
