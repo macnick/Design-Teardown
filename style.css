@@ -78,7 +78,8 @@ ul {
   justify-content: center;
 }
 li {
-  margin: 15px 25px;
+  margin: 15px 10px;
+  padding: 0 10px;
   font-size: 25px;
   color: white;
 }
