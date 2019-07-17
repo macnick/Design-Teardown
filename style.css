@@ -134,7 +134,30 @@ input {
   height: 60px;
   border-radius: 8px;
 }
-.lower2 li {
+.guides {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  font-family: Elena;
+}
+.guides p {
+  text-transform: capitalize;
+  font-size: small;
+}
+.guides article {
+  font-size: x-large;
+}
+.guides li {
+  list-style-type: none;
+  padding: 10px 0;
+  color: black;
+}
+.newsletter {
+  background-color: #777;
+}
+.see {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  padding: 30px;
 }
