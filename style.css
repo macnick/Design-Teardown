@@ -67,7 +67,7 @@ footer {
   display: block;
   text-align: center;
 }
-ul {
+footer ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -77,7 +77,7 @@ ul {
   margin: auto;
   justify-content: center;
 }
-li {
+footer li {
   margin: 15px 10px;
   padding: 0 10px;
   font-size: 25px;
@@ -121,8 +121,20 @@ li {
   margin: 0 30px 150px 0;
   float: left;
 }
+.wideAd {
+  background-color: #777;
+  padding: 30px 90px;
+  color: white;
+}
+.wideAd h1 {
+  text-decoration: underline;
+}
+input {
+  width: 150px;
+  height: 60px;
+  border-radius: 8px;
+}
 .lower2 li {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  
 }
